@@ -367,10 +367,53 @@ main {
 
 }
 
-
-
-
-
 /* /section 4 */
 
+/* section 5 */
+
+.section5-container {
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.section5-2-img img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.section5-2-text {
+    font-size: 1.5rem;
+
+}
+
+.section5-2-text a {
+    font-size: 1rem;
+}
+
+.section5-1 p {
+    margin-bottom: 2rem;
+}
+
+@media screen  and (min-width: 768px) {
+    .section5-container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .section5-1 {
+        width: 70%;
+    }
+
+    .section5-2 {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+/* /section 5 */
 /* /MAIN */
