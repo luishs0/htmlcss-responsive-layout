@@ -299,7 +299,7 @@ main {
     .section3-container {
         max-width: 1200px;
         margin: auto;
-        width: 60%;
+        width: 80%;
     }
 
    .img-section3 {
@@ -308,8 +308,69 @@ main {
 
 }
 
-
-
 /* /section 3 */
+
+
+
+/* section 4 */
+
+.benefits {
+    background-color: #9792e4;
+    padding: 3rem 0;
+}
+
+.flex-4 {
+    flex-wrap: wrap;
+}
+
+.benefits h2 {
+    margin-bottom: 1.2rem;
+}
+
+.section4-container {
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.card4 {
+    background-color: white;
+    color: #9792e4;
+    padding: 1rem;
+    margin-bottom: 1.4rem;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .flex-4 {
+        justify-content: space-between;
+    }
+
+    .card4 {
+        width: calc(100% / 2 - 1rem);
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    
+    .section4-container {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .card4 {
+        width: calc(100% / 3 - 1rem);
+    }
+
+}
+
+
+
+
+
+/* /section 4 */
 
 /* /MAIN */
