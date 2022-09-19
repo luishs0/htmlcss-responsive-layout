@@ -452,3 +452,21 @@ main {
 /* /section 6 */
 
 /* /MAIN */
+
+/* FOOTER */
+
+footer {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer {
+    width: 90%;
+    text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+}
+
+/* /FOOTER */
