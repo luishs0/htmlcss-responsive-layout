@@ -163,7 +163,73 @@ main {
     }
 
 }
-
 /* /section 1 */
+
+/* section 2 */
+
+.planning {
+    background-color: #9792e4;
+    color: white;
+    padding: 3rem 0;
+}
+
+.card1-2 {
+
+    text-align: center;
+}
+
+.card1-2 .card1-2-text {
+    text-align: left;
+}
+
+.card2-2 {
+    color: black;
+    background-color: white;
+    padding: 2em;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card1-2-img {
+    margin-bottom: 3.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .card1-2 {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    .section2-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .card1-2 {
+        width: 30%;
+        margin-right: 5rem;
+    }
+
+    .card2-2 {
+        width: 30%;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card2-2 img {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+}
+
+/* /section 2 */
 
 /* /MAIN */
