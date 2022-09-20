@@ -72,6 +72,19 @@ header {
     border-radius: 40px;
 }
 
+.header-right ul li:hover:not(:last-child) {
+    transform: scale(1.1);
+}
+
+.header-left a img:hover {
+    transform: scale(1.1);
+}
+
+.header-right ul li:last-child a:hover {
+    background-color: rgba(200, 200, 200, .5);
+    color: white;
+}
+
 @media screen and (max-width: 175px) {
 
     html {
@@ -165,6 +178,10 @@ main {
     width: 80%;
     margin-bottom: -.3rem;
     max-width: 400px;
+}
+
+.card1 .card-text a:hover {
+   background-color: rgba(0, 120, 200, .5);
 }
 
 @media screen and (min-width: 768px) {
@@ -449,6 +466,10 @@ main {
     letter-spacing: .2rem;
 }
 
+.card4 a:hover {
+    background-color: rgba(151, 146, 228, .7);
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -539,6 +560,10 @@ main {
 .section5-2-img {
     text-align: center;
     width: 100%;
+}
+
+.section5-2 .section5-2-text a:hover {
+    background-color: rgba(151, 146, 228, .7);
 }
 
 @media screen and (max-width: 767px) {
@@ -634,7 +659,11 @@ main {
     text-decoration: none;
     padding: .8rem 1.7rem;
     border-radius: 20px;
-    
+}
+
+.section6-container a:hover {
+    background-color: rgba(199, 199, 199, .7);
+    color: white;
 }
 
 @media screen and (min-width: 768px) {
