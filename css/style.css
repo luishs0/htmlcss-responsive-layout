@@ -496,12 +496,47 @@ main {
 
 }
 
+.section5-2-text p {
+    font-size: 1.8rem;
+    color: #9792e4;
+    margin-bottom: 1rem;
+}
+
 .section5-2-text a {
     font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #9792e4;
+    padding: 0.2rem 0.6rem;
+    border-radius: 15px;
 }
 
 .section5-1 p {
     margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.section5-1 h2 {
+    font-size: 2.5rem;
+    color: #9792e4;
+    margin-bottom: 1rem;
+}
+
+.section5-2-img i {
+    font-size: 2.8rem;
+    color: #9792e4;
+    position: absolute;
+    top: 0;
+    right: 20%;
+}
+
+.section5-2-img {
+    position: relative;
+}
+
+.section5-2-img {
+    text-align: center;
+    width: 100%;
 }
 
 @media screen  and (min-width: 768px) {
@@ -519,10 +554,27 @@ main {
     .section5-2 {
         width: 25%;
     }
+
+    .section5-2-img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section5-2-img img {
+        width: 130%;
+    }
+
+    .section5-2-img i {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }
 
 @media screen and (min-width: 992px) {
-    
+    .section5-2-img {
+        text-align: center;
+    }
 }
 /* /section 5 */
 
