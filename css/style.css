@@ -509,6 +509,8 @@ main {
     background-color: #9792e4;
     padding: 0.2rem 0.6rem;
     border-radius: 15px;
+    display: block;
+    text-align: center;
 }
 
 .section5-1 p {
@@ -537,6 +539,13 @@ main {
 .section5-2-img {
     text-align: center;
     width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .section5-2-text a {
+        display: inline-block;
+        text-align: center;
+    }
 }
 
 @media screen  and (min-width: 768px) {
@@ -599,8 +608,33 @@ main {
 }
 
 .section6-container .free {
-    font-size: 4rem;
+    font-size: 4.4rem;
     color: #fdc160;
+    margin: 2rem 0;
+}
+
+.section6-container span {
+    color: rgba(200, 200, 200, .8);
+    margin-bottom: 1rem;
+}
+
+.section6-container h3 {
+    font-size: 2rem;
+}
+
+.section6-container p {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.section6-container a {
+    background-color: white;
+    color: #9792e4;
+    font-size: .8rem;
+    text-decoration: none;
+    padding: .8rem 1.7rem;
+    border-radius: 20px;
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -628,6 +662,11 @@ footer {
     text-align: center;
     padding: 2rem;
     max-width: 600px;
+}
+
+.container-footer p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 /* /FOOTER */
