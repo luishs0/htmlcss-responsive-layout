@@ -319,6 +319,8 @@ main {
 
 .testimonials h2 {
     padding-bottom: 1.5rem;
+    color: #9792e4;
+    font-size: 2rem;
 }
 
 .testimonials p {
@@ -332,8 +334,10 @@ main {
 }
 
 .img-section3 img {
-    border-radius: 80%;
-    
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .card1-3, .card2-3, .card3-3 {
@@ -342,7 +346,16 @@ main {
     color: white;
     padding: 2rem 1.2rem;
     border-radius: 30px;
-    
+}
+
+.text-card1-3, .text-card2-3, .text-card3-3 {
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .text-card1-3, .text-card2-3, .text-card3-3 {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 768px) {
