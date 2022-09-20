@@ -148,6 +148,19 @@ main {
     padding-bottom: 0;
 }
 
+.card-text p {
+    margin-bottom: 1rem;
+}
+
+.card-text a {
+    color: white;
+    text-decoration: none;
+    background-color: #0084fd;
+    padding: .4rem 1.2rem;
+    border-radius: 20px;
+    letter-spacing: .2rem;
+}
+
 .why-us .card1-img {
     width: 80%;
     margin-bottom: -.3rem;
@@ -227,9 +240,32 @@ main {
     margin-bottom: 3.5rem;
 }
 
+.card1-2-text h2, .card2-2 h2, .card2-2 p {
+    margin-bottom: 1rem;
+}
+
+.card2-2 a i {
+    color: black;
+    background-color: #9792e4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+
 @media screen and (max-width: 768px) {
     .card1-2 {
         margin-bottom: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .section2-container {
+        width: 100%;
+        justify-content: center;
     }
 }
 
