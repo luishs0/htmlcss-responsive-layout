@@ -182,12 +182,15 @@ main {
 
 .why-us .card1-img {
     width: 80%;
-    margin-bottom: -.3rem;
     max-width: 400px;
 }
 
 .card1 .card-text a:hover {
    background-color: rgba(0, 120, 200, .5);
+}
+
+.card-img img {
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -231,6 +234,16 @@ main {
         max-width: 1200px;
     }
 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1139px) {
+    .why-us .card1 {
+        align-items: flex-end;
+    }
+
+    .why-us .card .card-text {
+        padding-bottom: 5rem;
+    }
 }
 /* /section 1 */
 
