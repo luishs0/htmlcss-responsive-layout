@@ -11,6 +11,11 @@ img {
 html {
     font-family: 'PT Sans', sans-serif;
     font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 4rem;
 }
 
 /* UTILITY */
@@ -38,6 +43,7 @@ header {
     z-index: 999;
     background-color: #0084fd;
     color: white;
+    scroll-margin-top: 4rem;
 }
 
 .header-container {
